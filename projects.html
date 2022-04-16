@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!--Font-->
+  <link rel="stylesheet" href="styles.css">
+  <title>Проекты</title>
+</head>
+
+<body>
+  <div class="wrapper" style="
+        background: url(img/first-screen.webp);
+        background-position-x: center;
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-attachment:fixed;">
+    <header class="header">
+      <div class="header__container container">
+
+        <div class="header__menu menu">
+          <div class="menu__icon icon-menu" id="menu__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="menu__body" id="menu__body">
+            <ul class="menu__list">
+              <li><a href="index.html" class="menu__link">Главная</a></li>
+              <li><a href="services.html" class="menu__link">Услуги</a></li>
+              <li><a href="projects.html" class="menu__link">Проекты</a></li>
+              <li><a href="#footer" class="menu__link">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </header>
+
+    <main class="page">
+
+      <section class="projects-page">
+        <div class="projects-page__container container">
+          <h1 class="projects-page__title title">Наши проекты</h1>
+          <div class="projects-page__list">
+            <div class="project">
+              <div class="project__img">
+                <img src="img/internet-shop.jpg">
+              </div>
+              <h2 class="project__title">Интернет магазин одежды Fashion</h2>
+            </div>
+            <div class="project">
+              <div class="project__img">
+                <img src="img/mobile-movies.png">
+              </div>
+              <h2 class="project__title">Мобильное приложение для просмотра фильмов LazyMedia Deluxe</h2>
+            </div>
+            <div class="project">
+              <div class="project__img">
+                <img src="img/desktop-save-pwd.png">
+              </div>
+              <h2 class="project__title">Десктоп приложение для хранения паролей MultiPassword</h2>
+            </div>
+            <div class="project">
+              <div class="project__img">
+                <img src="img/my-todo.png">
+              </div>
+              <h2 class="project__title">Веб-приложение для ежедневных заметок My todo</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <div class="footer__item-container">
+
+          <div class="footer__item contacts">
+            <h5 class="footer__item-title">Контактная информация</h5>
+            <div class="footer__link e-mail">
+              <picture>
+                <source srcset="img/e-mail.webp" type="image/webp"><img src="img/e-mail.png">
+              </picture>test@test.ru
+            </div>
+            <div class="footer__link tell">
+              <picture>
+                <source srcset="img/call.webp" type="image/webp"><img src="img/call.png">
+              </picture>+8 777 555 66 99
+            </div>
+            <div class="footer__link adres">
+              <picture>
+                <source srcset="img/placeholder.webp" type="image/webp"><img src="img/placeholder.png">
+              </picture>Город Саратов
+            </div>
+          </div>
+
+          <div class="footer__item">
+            <h5 class="footer__item-title">Основные ссылки</h5>
+            <a href="index.html" class="footer__link">
+              <picture>
+                <source srcset="img/right-arrow.webp" type="image/webp"><img src="img/right-arrow.png">
+              </picture>Главная
+            </a>
+            <a href="services.html" class="footer__link">
+              <picture>
+                <source srcset="img/right-arrow.webp" type="image/webp"><img src="img/right-arrow.png">
+              </picture>Наши услуги
+            </a>
+            <a href="projects.html" class="footer__link">
+              <picture>
+                <source srcset="img/right-arrow.webp" type="image/webp"><img src="img/right-arrow.png">
+              </picture>Наши проекты
+            </a>
+          </div>
+
+          <div class="footer__item">
+            <h5 class="footer__item-title">Социальные сети</h5>
+            <a href="https://vk.com/" target="blanck" class="footer__link">
+              <picture>
+                <source srcset="img/right-arrow.webp" type="image/webp"><img src="img/right-arrow.png">
+              </picture>VK.com
+            </a>
+            <a href="https://www.viber.com/ru/" target="blanck" class="footer__link">
+              <picture>
+                <source srcset="img/right-arrow.webp" type="image/webp"><img src="img/right-arrow.png">
+              </picture>Viber.com
+            </a>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="copyright">
+          <p>&copy; 2022 Все права защищены.</p>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
